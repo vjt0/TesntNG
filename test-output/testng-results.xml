@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-28T19:14:08 IST" name="Suite" finished-at="2020-08-28T19:14:09 IST" duration-ms="73">
+    <groups>
+      <group name="people">
+        <method signature="HomePage.test(java.lang.String)[pri:0, instance:Demo.HomePage@6293abcc]" name="test" class="Demo.HomePage"/>
+      </group> <!-- people -->
+    </groups>
+    <test started-at="2020-08-28T19:14:08 IST" name="Test" finished-at="2020-08-28T19:14:09 IST" duration-ms="73">
+      <class name="Demo.Parameterpassing">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:Demo.Parameterpassing@7995092a]" started-at="2020-08-28T19:14:08 IST" name="test1" finished-at="2020-08-28T19:14:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am rich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Demo.Parameterpassing@7995092a]" started-at="2020-08-28T19:14:08 IST" name="test2" finished-at="2020-08-28T19:14:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Demo.Parameterpassing -->
+      <class name="Demo.HomePage">
+        <test-method is-config="true" signature="login()[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:08 IST" name="login" finished-at="2020-08-28T19:14:08 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding()[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:09 IST" name="adding" finished-at="2020-08-28T19:14:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding -->
+        <test-method signature="dividing()[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:09 IST" name="dividing" finished-at="2020-08-28T19:14:09 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at Demo.Calculator.divide(Calculator.java:9)
+at Demo.HomePage.dividing(HomePage.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividing -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:09 IST" name="test" finished-at="2020-08-28T19:14:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am rich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="method2()[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:09 IST" name="method2" finished-at="2020-08-28T19:14:09 IST" depends-on-methods="Demo.HomePage.dividing, Demo.HomePage.adding" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="later()[pri:0, instance:Demo.HomePage@6293abcc]" started-at="2020-08-28T19:14:09 IST" name="later" finished-at="2020-08-28T19:14:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- later -->
+      </class> <!-- Demo.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
